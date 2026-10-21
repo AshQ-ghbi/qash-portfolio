@@ -49,7 +49,11 @@ I built this portfolio website as part of the **EWB HTML & CSS Internship Projec
 
 ![Desktop preview of Ashish Kumar's portfolio](desktop.png)
 
-*(To display your preview image, name your desktop screenshot `desktop.png` and place it in the root of this repository).*
+### Mobile View
+
+![Mobile preview of Ashish Kumar's portfolio](mobview.png)
+
+
 
 ---
 
