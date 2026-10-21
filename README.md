@@ -71,3 +71,10 @@ To view or test the project locally on your machine:
 1. Clone the repository:
    ```bash
    git clone [https://github.com/AshQ-ghbi/Ashish_Kumar_HTML_CSS_Portfolio.git](https://github.com/AshQ-ghbi/Ashish_Kumar_HTML_CSS_Portfolio.git)
+   
+2.Navigate into the project folder and Open index.html directly in any web browser (Chrome, Edge, Firefox, or Safari).
+
+
+
+### Let's Connect
+Designed & Built © 2026 Ashish Kumar. All rights reserved.
