@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Ashish Kumar — Computer Science Engineering student at JNCT, specializing in Full-Stack Development and AI.">
+  <meta name="author" content="Ashish Kumar">
+  <title>Ashish Kumar | Full-Stack Developer & CS Student</title>
+
+  <!-- Inline SVG Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%232563eb'/><text x='16' y='21' font-family='sans-serif' font-size='14' font-weight='700' fill='white' text-anchor='middle'>AK</text></svg>">
+
+  <!-- Typography: Inter + JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheet: Dark Developer Theme -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="#home" class="brand-logo" aria-label="Ashish Kumar Home">
+        <span class="logo-symbol">&lt;/&gt;</span>
+        <span class="logo-text">Ashish<span class="accent-dot">.</span></span>
+      </a>
+
+      <nav class="nav-menu" aria-label="Primary Navigation">
+        <ul class="nav-list" role="list">
+          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-cta-wrapper">
+        <a href="https://www.linkedin.com/in/qash-dt3" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+          LinkedIn
+          <svg class="external-icon" viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+            <polyline points="15 3 21 3 21 9"></polyline>
+            <line x1="10" y1="14" x2="21" y2="3"></line>
+          </svg>
+          <span class="sr-only">(opens in new tab)</span>
+        </a>
+      </div>
+    </div>
+    <div class="scroll-progress-bar" aria-hidden="true"></div>
+  </header>
+
+  <main id="main-content">
+    <section id="home" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="badge-status">
+            <span class="status-indicator"></span>
+            <span class="badge-text">B.Tech CSE Student &bull; Full-Stack Developer</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="text-gradient">Ashish Kumar</span>.
+          </h1>
+
+          <p class="hero-subtitle">
+            Computer Science Engineering student building scalable web solutions.<span class="terminal-cursor" aria-hidden="true">_</span>
+          </p>
+
+          <p class="hero-description">
+            Driven and results-oriented student at <strong>Jai Narain College of Technology (JNCT)</strong> in Bhopal. I specialize in Full-Stack Development, Data Structures & Algorithms, and leveraging AI technologies to craft modern user experiences.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              View Projects
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+          </div>
+
+          <div class="hero-study-strip">
+            <div class="study-item">
+              <span class="study-label">Engineering Degree</span>
+              <span class="study-degree">B.Tech in Computer Science</span>
+              <span class="study-institution">JNCT, Bhopal (2025-2029)</span>
+            </div>
+            <div class="study-divider" aria-hidden="true"></div>
+            <div class="study-item">
+              <span class="study-label">Core Focus</span>
+              <span class="study-degree">Full-Stack &amp; AI Technologies</span>
+              <span class="study-institution">Open to Internships</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-code-wrapper">
+          <div class="hero-code-card" aria-label="Developer profile code snippet">
+            <div class="code-card-header">
+              <div class="code-dots" aria-hidden="true">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <span class="code-filename">profile.yml</span>
+            </div>
+            <pre><code><span class="code-line"><span class="code-key">developer</span>:</span><span class="code-line">  <span class="code-key">name</span>: <span class="code-str">"Ashish Kumar"</span></span><span class="code-line">  <span class="code-key">education</span>:</span><span class="code-line">    - <span class="code-str">"B.Tech CSE @ JNCT (Bhopal)"</span></span><span class="code-line">  <span class="code-key">focus</span>:</span><span class="code-line">    - <span class="code-str">"Software Engineering"</span></span><span class="code-line">    - <span class="code-str">"Full-Stack Development"</span></span><span class="code-line">    - <span class="code-str">"Artificial Intelligence"</span></span><span class="code-line">  <span class="code-key">languages</span>: [<span class="code-val">C++</span>, <span class="code-val">Java</span>, <span class="code-val">HTML/CSS</span>]</span><span class="code-line">  <span class="code-key">databases</span>: [<span class="code-val">PostgreSQL</span>, <span class="code-val">Supabase</span>, <span class="code-val">Firebase</span>]</span><span class="code-line">  <span class="code-key">status</span>: <span class="code-str">"seeking innovation opportunities"</span></span></code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">~/profile</span>
+          <h2 class="section-title">About Ashish Kumar</h2>
+          <div class="section-underline"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-editor-card">
+            <div class="editor-tab-header">
+              <div class="editor-tab-title">
+                <svg class="file-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
+                <span class="tab-filename">README.md</span>
+              </div>
+            </div>
+            <div class="about-text-column">
+              <p class="about-lead">
+                Seeking to leverage strong technical capabilities and problem-solving skills to build scalable digital solutions.
+              </p>
+              <p>
+                I am an undergraduate student currently pursuing my <strong>B.Tech in Computer Science and Engineering</strong> at Jai Narain College of Technology (JNCT) in Bhopal. I maintain an SGPA of 7.95 and am actively involved in campus technical initiatives.
+              </p>
+              <p>
+                My expertise spans <strong>Full-Stack Development</strong>, <strong>Data Structures & Algorithms (DSA)</strong>, and <strong>Object-Oriented Programming (OOPs)</strong>. I have practical experience integrating cloud databases like PostgreSQL, Supabase, and Firebase into modern web applications.
+              </p>
+              <p>
+                Beyond coding, I have led large-scale event management teams and actively participate in national hackathons to test my skills in high-pressure environments.
+              </p>
+
+              <div class="focus-pill-group">
+                <span class="focus-pill">Full-Stack Development</span>
+                <span class="focus-pill">Data Structures &amp; Algorithms</span>
+                <span class="focus-pill">Cloud Integration</span>
+                <span class="focus-pill">AI Technologies</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-cards-column">
+            <div class="profile-card highlight-border">
+              <div class="card-icon-tag tag-accent">Current Education</div>
+              <h3 class="card-degree-title">B.Tech in Computer Science &amp; Engineering</h3>
+              <p class="card-institution">Jai Narain College of Technology (JNCT) &bull; 2025-2029</p>
+              <ul class="card-highlights" role="list">
+                <li>Current SGPA: 7.95</li>
+                <li>Core focus on OOPs and DSA</li>
+                <li>Active Event Management Team Member for E-Cell</li>
+              </ul>
+            </div>
+
+            <div class="profile-card">
+              <div class="card-icon-tag">Previous Education</div>
+              <h3 class="card-degree-title">Intermediate (XII)</h3>
+              <p class="card-institution">S.B.P Vidya Vihar &bull; 2022-2024</p>
+              <ul class="card-highlights" role="list">
+                <li>Graduated with 70.4%</li>
+                <li>Strong foundation in mathematics and sciences</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">~/skills</span>
+          <h2 class="section-title">Technical Expertise</h2>
+          <p class="section-subtitle">
+            Languages, databases, and core concepts applied across hackathons and internship projects.
+          </p>
+          <div class="section-underline"></div>
+        </div>
+
+        <div class="stack-manifest-bar">
+          <div class="manifest-header">
+            <svg class="file-icon" viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+            </svg>
+            <span class="manifest-filename">skills.txt</span>
+          </div>
+          <div class="manifest-body">
+            <code>stack: C++, Java, HTML5, CSS3, PostgreSQL, Supabase, Firebase, Vercel</code>
+          </div>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-category-card">
+            <div class="category-header">
+              <h3 class="category-title">// programming</h3>
+            </div>
+            <p class="category-desc">Core languages used for backend logic and algorithm design.</p>
+            <div class="skill-tags-group">
+              <span class="skill-tag">C++</span>
+              <span class="skill-tag">Java</span>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <div class="category-header">
+              <h3 class="category-title">// frontend</h3>
+            </div>
+            <p class="category-desc">Markup and styling languages for responsive web interfaces.</p>
+            <div class="skill-tags-group">
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <div class="category-header">
+              <h3 class="category-title">// data-cloud</h3>
+            </div>
+            <p class="category-desc">Database management and modern cloud deployment platforms.</p>
+            <div class="skill-tags-group">
+              <span class="skill-tag">PostgreSQL</span>
+              <span class="skill-tag">Supabase</span>
+              <span class="skill-tag">Firebase</span>
+              <span class="skill-tag">Vercel</span>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <div class="category-header">
+              <h3 class="category-title">// core-fundamentals</h3>
+            </div>
+            <p class="category-desc">Theoretical computer science foundations applied to software engineering.</p>
+            <div class="skill-tags-group">
+              <span class="skill-tag">Data Structures &amp; Algorithms (DSA)</span>
+              <span class="skill-tag">Object-Oriented Programming (OOPs)</span>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <div class="category-header">
+              <h3 class="category-title">// version-control</h3>
+            </div>
+            <p class="category-desc">Source code management and collaborative repository hosting.</p>
+            <div class="skill-tags-group">
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">GitHub</span>
+              <span class="skill-tag">GitLab</span>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <div class="category-header">
+              <h3 class="category-title">// IDEs</h3>
+            </div>
+            <p class="category-desc">Primary development environments used for code authoring.</p>
+            <div class="skill-tags-group">
+              <span class="skill-tag">VS Code</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">~/projects</span>
+          <h2 class="section-title">Development Projects</h2>
+          <p class="section-subtitle">Web applications and structural systems built during hackathons and academic learning.</p>
+          <div class="section-underline"></div>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card project-card-featured">
+            <div class="project-featured-content">
+              <div class="project-card-header">
+                <div class="project-meta">
+                  <div class="repo-meta-title">
+                    <svg class="repo-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                      <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                    </svg>
+                    <h3 class="project-title">JanSetu - Connecting India</h3>
+                  </div>
+                  <span class="status-pill status-concept">Deployed</span>
+                </div>
+                <p class="project-tagline">Intelligent digital public infrastructure for rural citizens</p>
+              </div>
+
+              <div class="project-body">
+                <p class="project-summary">
+                  An intelligent application concept connecting rural citizens with verified local experts across 5 main domains: Agriculture, Education, Healthcare, MSME, and Rural Access.
+                </p>
+
+                <div class="project-highlights-box">
+                  <h4 class="box-title">Core Features</h4>
+                  <ul class="box-list" role="list">
+                    <li>Cross-domain verified expert matching system</li>
+                    <li>Designed to facilitate accessibility in remote regions</li>
+                    <li>Integrated AI concepts for natural language processing</li>
+                  </ul>
+                </div>
+
+                <div class="project-tech-group">
+                  <span class="tech-group-label">Technologies:</span>
+                  <div class="project-tech-stack">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">AI / NLP</span>
+                    <span class="tech-tag">Frontend UI</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-card-footer">
+                <span class="repo-footer-text">status: active prototype &bull; hackathon submission</span>
+              </div>
+            </div>
+
+            <div class="project-featured-diagram" role="img" aria-label="Concept diagram showing JanSetu connecting rural citizens to five domains: Agriculture, Education, Healthcare, MSME, and Rural Access.">
+              <div class="diagram-header">
+                <span class="diagram-tag">Architecture</span>
+                <h4 class="diagram-title">System Infrastructure Modules</h4>
+              </div>
+              <div class="concept-tree">
+                <div class="concept-center-node">
+                  <span class="node-icon">&lt;/&gt;</span>
+                  <span class="node-title">JanSetu Router</span>
+                  <span class="node-subtitle">Citizen Interface</span>
+                </div>
+                <div class="concept-connector-spine" aria-hidden="true"></div>
+                <div class="concept-modules-grid">
+                  <div class="concept-module-box">Agriculture</div>
+                  <div class="concept-module-box">Education</div>
+                  <div class="concept-module-box">Healthcare</div>
+                  <div class="concept-module-box">MSME</div>
+                  <div class="concept-module-box">Rural Access</div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card-header">
+              <div class="project-meta">
+                <div class="repo-meta-title">
+                  <svg class="repo-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                  </svg>
+                  <h3 class="project-title">Hospital Management System</h3>
+                </div>
+                <span class="status-pill status-planned">Prototype</span>
+              </div>
+              <p class="project-tagline">Real-time data optimization platform</p>
+            </div>
+
+            <div class="project-body">
+              <p class="project-summary">
+                A next-generation optimization platform designed to eliminate hospital congestion and prioritize high-risk patient interactions through real-time data flow.
+              </p>
+
+              <div class="project-highlights-box">
+                <h4 class="box-title">System Mechanics</h4>
+                <ul class="box-list" role="list">
+                  <li>Real-time patient congestion tracking</li>
+                  <li>High-risk patient triaging logic</li>
+                </ul>
+              </div>
+
+              <div class="project-tech-group">
+                <span class="tech-group-label">Technologies:</span>
+                <div class="project-tech-stack">
+                  <span class="tech-tag">REST API</span>
+                  <span class="tech-tag">HTML5 / CSS3</span>
+                  <span class="tech-tag">Data Integration</span>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section experience-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">~/experience</span>
+          <h2 class="section-title">Internships &amp; Hackathons</h2>
+          <p class="section-subtitle">
+            Professional development, event management, and competitive programming participation.
+          </p>
+          <div class="section-underline"></div>
+        </div>
+
+        <div class="experience-facts-strip">
+          1 Internship &bull; 5+ Hackathons Participated &bull; 2 Event Coordinator Roles
+        </div>
+
+        <div class="experience-timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="profile-card timeline-card">
+              <div class="card-icon-tag tag-accent">Internship</div>
+              <h3 class="card-degree-title">Web Development Intern</h3>
+              <p class="card-institution">InAmigos Foundation (IAF) &bull; June 2026</p>
+              <ul class="card-highlights" role="list">
+                <li>Completed a structured web development internship program.</li>
+                <li>Focused on practical frontend and backend implementation.</li>
+                <li>Collaborated in a remote working environment to build technical solutions.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="profile-card timeline-card">
+              <div class="card-icon-tag">Extracurricular</div>
+              <h3 class="card-degree-title">Event Management Team Member</h3>
+              <p class="card-institution">E-Cell, JNCT Bhopal &bull; July 2026 – Present</p>
+              <ul class="card-highlights" role="list">
+                <li>Contributed to the planning and execution of entrepreneurship events.</li>
+                <li>Fostered campus innovation, leadership, and technical collaboration.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="profile-card timeline-card">
+              <div class="card-icon-tag">Leadership</div>
+              <h3 class="card-degree-title">Event Coordinator</h3>
+              <p class="card-institution">Adwaita Mission High School &bull; July 2021 – Feb 2022</p>
+              <ul class="card-highlights" role="list">
+                <li>Led a team of 125 members for school-wide Arts, Culture, and Sports events.</li>
+                <li>Managed logistics and volunteer deployment for 450 participants across 21 distinct activities.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="experience-subsection">
+          <h3 class="experience-subheading">Hackathons &amp; Technical Competitions</h3>
+          <p class="experience-subnote">Competitive participation across multiple national-level coding and AI events.</p>
+
+          <div class="table-responsive-wrapper">
+            <table class="hackathon-table">
+              <caption class="sr-only">Hackathon Participation List</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Event</th>
+                  <th scope="col">Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td data-label="Event" class="cell-event">AMD Developer Hackathon: ACT II</td>
+                  <td data-label="Status" class="cell-action">Competed and built project submissions.</td>
+                </tr>
+                <tr>
+                  <td data-label="Event" class="cell-event">Microsoft: Agents League Hackathon</td>
+                  <td data-label="Status" class="cell-action">Participated in both Creative Apps Track and Enterprise Agents Track.</td>
+                </tr>
+                <tr>
+                  <td data-label="Event" class="cell-event">Vibe2Ship Hackathon</td>
+                  <td data-label="Status" class="cell-action">Participated in event by Coding Ninjas X Google for Developers.</td>
+                </tr>
+                <tr>
+                  <td data-label="Event" class="cell-event">CyphersNova's Innovation Hackathon 26</td>
+                  <td data-label="Status" class="cell-action">Competitor / Contributor.</td>
+                </tr>
+                <tr>
+                  <td data-label="Event" class="cell-event">Microsoft - AI Skills Fest 2026</td>
+                  <td data-label="Status" class="cell-action">Participant / Attendee.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">~/contact</span>
+          <h2 class="section-title">Get in Touch</h2>
+          <p class="section-subtitle">Interested in discussing web development, AI technologies, or potential internship opportunities? Reach out directly.</p>
+          <div class="section-underline"></div>
+        </div>
+
+        <div class="contact-card-centered contact-editor-card">
+          <div class="editor-tab-header">
+            <div class="editor-tab-title">
+              <svg class="file-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+              </svg>
+              <span class="tab-filename">contact.md</span>
+            </div>
+          </div>
+
+          <div class="contact-editor-body">
+            <h3 class="contact-card-title">Professional Coordinates</h3>
+            <p class="contact-card-desc">
+              I am currently seeking software engineering and full-stack development internship opportunities where I can apply my DSA knowledge and backend skills to real-world products.
+            </p>
+
+            <div class="contact-channels-list">
+              <a href="mailto:connect.with.ashishkr@gmail.com" class="channel-item channel-item-active">
+                <div class="channel-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                    <path d="M22 7l-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                  </svg>
+                </div>
+                <div class="channel-details">
+                  <span class="channel-label">email:</span>
+                  <span class="channel-value">connect.with.ashishkr@gmail.com</span>
+                  <span class="channel-hint">Send a direct message &rarr;</span>
+                </div>
+                <span class="sr-only">(opens email client)</span>
+              </a>
+
+              <a href="https://www.linkedin.com/in/qash-dt3" target="_blank" rel="noopener noreferrer" class="channel-item channel-item-active">
+                <div class="channel-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                  </svg>
+                </div>
+                <div class="channel-details">
+                  <span class="channel-label">linkedin:</span>
+                  <span class="channel-value">linkedin.com/in/qash-dt3</span>
+                  <span class="channel-hint">Connect professionally on LinkedIn &rarr;</span>
+                </div>
+                <span class="sr-only">(opens in new tab)</span>
+              </a>
+
+              <div class="channel-item">
+                <div class="channel-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.25h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"></path>
+                  </svg>
+                </div>
+                <div class="channel-details">
+                  <span class="channel-label">phone:</span>
+                  <span class="channel-value">+91 9905574387</span>
+                  <span class="channel-hint">Available in Bhopal (IST)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#home" class="brand-logo" aria-label="Ashish Kumar Home">
+            <span class="logo-symbol">&lt;/&gt;</span>
+            <span class="logo-text">Ashish<span class="accent-dot">.</span></span>
+          </a>
+          <p class="footer-tagline">
+            Student pursuing B.Tech in CSE at JNCT, Bhopal, focused on Full-Stack Development and AI integration.
+          </p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer Quick Links">
+          <span class="footer-heading">Navigation</span>
+          <ul class="footer-links" role="list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-social">
+          <span class="footer-heading">Connect</span>
+          <ul class="footer-links" role="list">
+            <li>
+              <a href="https://www.linkedin.com/in/qash-dt3" target="_blank" rel="noopener noreferrer">
+                LinkedIn Profile &nearr;
+                <span class="sr-only">(opens in new tab)</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/AshQ-ghbi" target="_blank" rel="noopener noreferrer">
+                GitHub Profile &nearr;
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="editor-status-bar">
+      <div class="container status-bar-container">
+        <div class="status-left">
+          <span class="status-item"><span class="status-dot-mini" aria-hidden="true"></span> HTML5 &bull; CSS3 &bull; No JavaScript</span>
+        </div>
+        <div class="status-right">
+          <span class="status-item">&copy; 2026 Ashish Kumar</span>
+          <a href="#home" class="back-to-top" aria-label="Back to top of page">
+            Back to Top &uarr;
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
